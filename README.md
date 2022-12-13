@@ -1,23 +1,20 @@
-
 # Instalacija
 
-1. Skini sa [sajta](https://julialang.org/downloads/) 
-2. Cekiraj __Add Julia to Path__ (Za lakse pokretanje)
+1. Skinuti Juliju sa [sajta](https://julialang.org/downloads/) 
+2. Cekirati __Add Julia to Path__ (Za lakse pokretanje)
+3. U Julia REPL ukucati __]add Plots__
+4. U Julia REPL ukucati __]add Images__
+5. U Julia REPL ukucati __]add ImageFeatures__
+6. U Julia REPL ukucati __]add DataFrames__
+
 
 ## VSCode
-3. Instaliraj ekstenzije __Julia__ i __Jupyter__
-4. U Julia REPL ukucati __]add IJulia__
+7. Instalirati ekstenzije __Julia__ i __Jupyter__
+8. U Julia REPL ukucati __]add IJulia__
 
 
+# Napomena
 
+Zbog nacina na koji Julija funkcionise pri prvom pokretanju komande _using <package\>_ treba vremena da se ucita paket i kesira, naredna pokretanja budu brza.
 
-
-
-
-
-
-# Literatura za prezentaciju
-1. O juliji https://www.simplilearn.com/things-to-know-about-julia-programming-language-article
-2. O juliji https://en.wikipedia.org/wiki/Julia_(programming_language)
-3. Primeri koriscenja https://juliabyexample.helpmanual.io/#Packages-and-Including-of-Files
-4. Oficijalna dokumentacija https://docs.julialang.org/en/v1/
+Takodje, slicno se desava za plotovanje, prvo pokretanje _plot(x, y)_ traje malo duze ali svaki sledeci poziv bilo koje funkcije za plotovanje je vrlo brz. Ovaj problem je nazvan _Time to first plot_.
